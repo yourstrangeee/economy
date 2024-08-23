@@ -13,7 +13,7 @@ SHOP_ITEMS = {
 class Economy(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
-        self.file_path = 'db/daily_rewards.json'
+        self.file_path = 'db/economy.json'
         self.load_data()
 
     def load_data(self):
