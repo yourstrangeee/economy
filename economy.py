@@ -88,7 +88,7 @@ class Economy(commands.Cog):
             await ctx.send("You don't have enough coins.")
             return
 
-        emojis = ["🍒", "🍋", "🍊"]
+        emojis = ["🍒", "🍋", "🍊"] # if you want to make this game more complicated add more emojis
         spin = [random.choice(emojis) for _ in range(3)]
     
         result = " | ".join(spin)
