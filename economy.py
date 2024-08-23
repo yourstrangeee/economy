@@ -5,9 +5,9 @@ import os
 import datetime
 import random
 SHOP_ITEMS = {
-    "items_name_1": {"price": 100, "description": "A useful item for various tasks."},
-    "items_name_2": {"price": 500, "description": "A rare item with special abilities."},
-    "items_name_3": {"price": 1000, "description": "An exclusive item with high value."}
+    "items_name_1": {"price": 100, "description": "items_name_1 description"},
+    "items_name_2": {"price": 500, "description": "items_name_2 description"},
+    "items_name_3": {"price": 1000, "description": "items_name_3 description"}
     # etc.
     }
 class Economy(commands.Cog):
